@@ -75,7 +75,6 @@ int main() {
         scanf(" %c", &elegir);
 
         if (elegir == 's' || elegir == 'S') {
-            barajaJugador[numeroCartasJugador] = baraja[numeroCartasJugador + 1];
             sumaJugador = sumaBaraja(barajaJugador, ++numeroCartasJugador);
 
             printf("Nueva carta:\n");
